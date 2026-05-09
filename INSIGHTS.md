@@ -74,5 +74,3 @@ A structured breakdown of the most significant findings from the Loan Default An
 - **Introduce a benchmark line** on the YOY default chart to compare the portfolio's trend against an industry average or internal target
 
 ---
-
-*Insights derived from: Loan Default Analysis — Banking Project | Power BI*
