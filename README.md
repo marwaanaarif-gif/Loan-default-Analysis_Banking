@@ -1,22 +1,19 @@
-# 🏦 Loan Default Analysis — Banking Project
+# 🏦 Loan Default Analysis - Power BI Dashboard
 
 A multi-page Power BI dashboard analyzing loan default patterns across a banking dataset. The report segments borrowers by employment type, age group, credit score, education level, marital status, and income bracket to uncover risk concentrations and track year-over-year default trends.
 
 ---
 
-## 📁 Project Structure
-
-```
-Loan_default_analysis__BANKING_PROJECT_.pbix
-│
-├── Page 1 — LOAN DEFAULT OVERVIEW
-├── Page 2 — APPLICANT DEMOGRAPHICS AND FINANCIAL PROFILE
-└── Page 3 — FINANCIAL RISK OVERVIEW
+| Page | Description |
+|------|-------------|
+https://github.com/marwaanaarif-gif/Housing-market-overview-power-bi/blob/main/housing%20market%20overview.png | House Market Overview |
+https://github.com/marwaanaarif-gif/Housing-market-overview-power-bi/blob/main/Sales%20overview.png | Sales Overview |
+https://github.com/marwaanaarif-gif/Housing-market-overview-power-bi/blob/main/house%20type%20overview.png| House Type Overview |
 ```
 
 ---
 
-## 📊 Dashboard Pages
+## 📊 Report Pages
 
 ### Page 1 — Loan Default Overview
 
@@ -78,7 +75,7 @@ All custom measures are housed in a dedicated `MEASURE` table for clean separati
 
 ---
 
-## 🗂️ Data Model
+## 🗂️ Data Fields
 
 The report is built on a single fact table: `Loan_default`.
 
@@ -100,7 +97,7 @@ The report is built on a single fact table: `Loan_default`.
 
 ---
 
-## 💡 Key Insights Surfaced
+## 💡 Key Findings Surfaced
 
 - **Employment type is a primary default risk driver** — the default rate chart reveals meaningful spread across employment categories, with certain types consistently underperforming
 - **Credit score segmentation matters beyond just approval** — median loan amounts vary significantly across credit bins, with high-credit borrowers drawing larger averages
@@ -117,10 +114,11 @@ The report is built on a single fact table: `Loan_default`.
 | Power BI Desktop | Report building, data modelling, DAX authoring |
 | DAX | All custom KPI and ratio calculations |
 | Power Query (M) | Data transformation and column preparation |
+| MS Excel | Data cleaning |
 
 ---
 
-## 🚀 How to Use
+## 🚀 How to Open
 
 1. Download `Loan_default_analysis__BANKING_PROJECT_.pbix`
 2. Open in **Power BI Desktop** (free download from Microsoft)
@@ -129,14 +127,3 @@ The report is built on a single fact table: `Loan_default`.
 5. To connect your own dataset, go to **Home → Transform Data** and update the data source path
 
 ---
-
-## 📌 Notes
-
-- The report uses a single flat table (`Loan_default`) — no star schema
-- All measures are isolated in a dedicated measures table to keep the field list clean
-- Age groups, credit bins, and income brackets are calculated/binned columns — review them in Power Query or the data model view if you need to adjust the thresholds
-- The theme applied is the default CY26 Power BI theme
-
----
-
-*Built with Power BI Desktop · DAX · Banking dataset*
