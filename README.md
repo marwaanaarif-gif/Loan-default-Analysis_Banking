@@ -6,10 +6,9 @@ A multi-page Power BI dashboard analyzing loan default patterns across a banking
 
 | Page | Description |
 |------|-------------|
-https://github.com/marwaanaarif-gif/Housing-market-overview-power-bi/blob/main/housing%20market%20overview.png | House Market Overview |
-https://github.com/marwaanaarif-gif/Housing-market-overview-power-bi/blob/main/Sales%20overview.png | Sales Overview |
-https://github.com/marwaanaarif-gif/Housing-market-overview-power-bi/blob/main/house%20type%20overview.png| House Type Overview |
-```
+https://github.com/marwaanaarif-gif/Loan-default-Analysis_Banking/blob/main/Loan%20default%20overview-%20Page%201.png) | Loan Default Overview |
+https://github.com/marwaanaarif-gif/Loan-default-Analysis_Banking/blob/main/Applicant%20demographics%20and%20Financial%20profile-%20Page%202.png| Applicant Demographics and Financial Profile |
+https://github.com/marwaanaarif-gif/Loan-default-Analysis_Banking/blob/main/Financial%20risk%20overview-%20page%203.png| Financial Risk Overview |
 
 ---
 
